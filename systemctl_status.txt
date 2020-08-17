@@ -1,0 +1,15 @@
+active (exited) - what does it mean?
+If it says "exited" that means the service is no longer running properly, that is "active,running". Take a look at your smbd.conf and ensure the appropriate options are selected. Next testparm the config file and it will let you know if you made an error in the configuration. Again read the config file carefully it should have comments to explain every section. You should also have a log file location for the daemon (/var/log/samba/ ?) so don't forget about that.
+
+2. another meaning 
+It seems you are running a system with systemd yet you are using sysV commands. Did you create a sysV init script or a systemd unit file?
+State active (exited) means that systemd has successfully run the commands but that it does not know there is a daemon to monitor.
+If there is you must define it in the unit file by configuring the Type and ExecStart options appropriately according to whether the process you start is the main proces, forks child processes and exits etc.
+
+Example:
+Status of .service says "active (exited)" in green. (e.g. iptables)
+This is perfectly normal. In the case with iptables, it is because there is no daemon to run, it is controlled in the kernel. Therefore, it exits after the rules have been loaded.
+
+To check if your iptables rules have been loaded properly:
+
+# iptables --list
