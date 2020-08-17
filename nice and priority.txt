@@ -1,0 +1,27 @@
+To see the nice values of processes, we can use utilities such as ps, top or htop:
+
+$ ps -e -o pid,ppid,ni,comm
+
+2. 
+Difference Between PR or PRI and NI
+From the top and htop outputs above, you’ll notice that there is a column called PR and PRI receptively which shows the priority of a process.
+
+This, therefore, means that:
+
+NI – is the nice value, which is a user-space concept, while
+PR or PRI – is the process’s actual priority, as seen by the Linux kernel.
+
+3.
+How To Calculate PR or PRI Values
+Total number of priorities = 140
+Real time priority range(PR or PRI):  0 to 99 
+User space priority range: 100 to 139
+Nice value range (NI): -20 to 19
+
+PR = 20 + NI ->
+PR = 20 + (-20 to + 19) ->
+PR = 20 -20  to 20 + 19 ->
+PR = 0 to 39 which is same as 100 to 139.
+But if you see a rt rather than a number as shown in the screenshot below, it basically means the process is running under real-time scheduling priority.
+
+default niceness of a process is set to 0 (which results in the priority value of 20)
