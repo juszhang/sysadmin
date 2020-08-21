@@ -1,0 +1,14 @@
+Redirecting stderr to stdout
+When saving the program’s output to a file, it is quite common to redirect stderr to stdout so that you can have everything in a single file.
+
+To redirect stderr to stdout and have error messages sent to the same file as standard output, use the following:
+
+command > file 2>&1
+> file redirect the stdout to file, and 2>&1 redirect the stderr to the current location of stdout.
+
+The order of redirection is important. For example, the following example redirects only stdout to file. This happens because the stderr is redirected to stdout before the stdout was redirected to file.
+
+command 2>&1 > file 
+Another way to redirect stderr to stdout is to use the &> construct. In Bash &> has the same meaning as 2>&1:
+
+command &> file
