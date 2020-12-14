@@ -1,0 +1,21 @@
+Vim does show ^M except in one case: if the fileformat=dos then it will not show a trailing crlf.
+
+You can find out which format (unix or dos) you have by typing :set and you can get rid of the ^M 
+in the crlf by just changing the format (:set fileformat=unix) and then writing out the file.
+
+Display CRLF as ^M:
+:e ++ff=unix
+
+Substitute CRLF for LF:
+:setlocal ff=unix
+:w
+:e
+
+explaination: 
+:e ++ff=unix uses the :edit command to load the file again from disk, specifically with the unix file format: ++ff=unix. :setlocal I believe sets a local options just for this vim window, ensuring that file format is set to unix: ff=unix. :w writes the file to disk. :e loads the file from disk again to display the current state of the file
+
+vim is autodetecting the fileformat and switching modes to match (take a look at set ff)
+
+If you want to force it to open in a particular mode, toss a +ff=unix(to show the ^M) or +ff=dos in your command line to open it in that mode. If you're on a windows box, just try :e ++ff=unix after opening the file.
+
+If you're trying to just strip those characters out, you can open it in one mode, set the ff to what you want, and then save the file. Check out :h ff for more details.

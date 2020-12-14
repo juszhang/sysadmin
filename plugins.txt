@@ -1,0 +1,179 @@
+Priority Sorter Plugin (PrioritySorter): 3.6.1-SNAPSHOT (private-03/28/2019 16:39-AENNIS1)
+JavaScript GUI Lib: ACE Editor bundle plugin (ace-editor): 1.1
+AnsiColor (ansicolor): 0.7.3
+Ant Plugin (ant): 1.11
+OWASP Markup Formatter Plugin (antisamy-markup-formatter): 2.1
+Apache HttpComponents Client 4.x API Plugin (apache-httpcomponents-client-4-api): 4.5.10-2.0
+Authentication Tokens API Plugin (authentication-tokens): 1.4
+batch task plugin (batch-task): 1.19
+Blue Ocean (blueocean): 1.24.3
+Autofavorite for Blue Ocean (blueocean-autofavorite): 1.2.4
+Bitbucket Pipeline for Blue Ocean (blueocean-bitbucket-pipeline): 1.24.3
+Common API for Blue Ocean (blueocean-commons): 1.24.3
+Config API for Blue Ocean (blueocean-config): 1.24.3
+Blue Ocean Core JS (blueocean-core-js): 1.24.3
+Dashboard for Blue Ocean (blueocean-dashboard): 1.24.3
+Display URL for Blue Ocean (blueocean-display-url): 2.4.0
+Events API for Blue Ocean (blueocean-events): 1.24.3
+Git Pipeline for Blue Ocean (blueocean-git-pipeline): 1.24.3
+GitHub Pipeline for Blue Ocean (blueocean-github-pipeline): 1.24.3
+i18n for Blue Ocean (blueocean-i18n): 1.24.3
+JIRA Integration for Blue Ocean (blueocean-jira): 1.24.3
+JWT for Blue Ocean (blueocean-jwt): 1.24.3
+Personalization for Blue Ocean (blueocean-personalization): 1.24.3
+Pipeline implementation for Blue Ocean (blueocean-pipeline-api-impl): 1.24.3
+Blue Ocean Pipeline Editor (blueocean-pipeline-editor): 1.24.3
+Pipeline SCM API for Blue Ocean (blueocean-pipeline-scm-api): 1.24.3
+REST API for Blue Ocean (blueocean-rest): 1.24.3
+REST Implementation for Blue Ocean (blueocean-rest-impl): 1.24.3
+Web for Blue Ocean (blueocean-web): 1.24.3
+Bootstrap 4 API Plugin (bootstrap4-api): 4.5.3-1
+bouncycastle API Plugin (bouncycastle-api): 2.18
+Branch API Plugin (branch-api): 2.6.2
+BTC DSL for Pipeline (btc-embeddedplatform): 2.7.3
+Build Monitor View (build-monitor-plugin): 1.12+build.201809061734
+Build-Publisher plugin (build-publisher): 1.22
+Build Timeout (build-timeout): 1.20
+Build Timestamp Plugin (build-timestamp): 1.0.3
+build user vars plugin (build-user-vars-plugin): 1.6
+Build With Parameters (build-with-parameters): 1.5
+Checks API plugin (checks-api): 1.1.1
+Cisco Spark Notifier (cisco-spark-notifier): 1.1.1
+Bitbucket Branch Source Plugin (cloudbees-bitbucket-branch-source): 2.9.5
+CloudBees Disk Usage Simple Plugin (cloudbees-disk-usage-simple): 0.10
+Folders Plugin (cloudbees-folder): 6.15
+Cobertura Plugin (cobertura): 1.16
+Code Coverage API Plugin (code-coverage-api): 1.2.0
+Command Agent Launcher Plugin (command-launcher): 1.5
+Conditional BuildStep (conditional-buildstep): 1.4.0
+Configuration Slicing plugin (configurationslicing): 1.51
+Copy To Slave Plugin (copy-to-slave): 1.4.4
+Copy Artifact Plugin (copyartifact): 1.45.3
+Credentials Plugin (credentials): 2.3.14
+Credentials Binding Plugin (credentials-binding): 1.24
+Custom Tools Plugin (custom-tools-plugin): 0.7
+Dashboard View (dashboard-view): 2.14
+Date Parameter Plugin (date-parameter): 0.0.4
+description setter plugin (description-setter): 1.10
+Display URL API (display-url-api): 2.3.4
+Docker Commons Plugin (docker-commons): 1.17
+Docker Pipeline (docker-workflow): 1.25
+Durable Task Plugin (durable-task): 1.35
+ECharts API Plugin (echarts-api): 4.9.0-2
+Email Extension Plugin (email-ext): 2.80
+Environment Injector Plugin (envinject): 2.3.0
+EnvInject API Plugin (envinject-api): 1.7
+Extended Choice Parameter Plug-In (extended-choice-parameter): 0.82
+Extended Read Permission Plugin (extended-read-permission): 3.2
+External Monitor Job Type Plugin (external-monitor-job): 1.7
+Fail The Build Plugin (fail-the-build-plugin): 1.0
+Favorite (favorite): 2.3.2
+Font Awesome API Plugin (font-awesome-api): 5.15.1-1
+GitHub Pull Request Builder (ghprb): 1.42.1
+Git plugin (git): 4.4.5
+Git client plugin (git-client): 3.5.1
+GIT server Plugin (git-server): 1.9
+GitHub plugin (github): 1.32.0
+GitHub API Plugin (github-api): 1.117
+GitHub Branch Source Plugin (github-branch-source): 2.9.2
+GitHub Organization Folder Plugin (github-organization-folder): 1.6
+GitHub Integration Plugin (github-pullrequest): 0.2.8
+Gradle Plugin (gradle): 1.36
+Groovy (groovy): 2.3
+Groovy Label Assignment plugin (groovy-label-assignment): 1.2.0
+JavaScript GUI Lib: Handlebars bundle plugin (handlebars): 1.1.1
+Handy Uri Templates 2.x API Plugin (handy-uri-templates-2-api): 2.1.8-1.0
+HTML Publisher plugin (htmlpublisher): 1.25
+HTTP Request Plugin (http_request): 1.8.27
+Icon Shim Plugin (icon-shim): 2.0.3
+Jackson 2 API Plugin (jackson2-api): 2.12.0
+Javadoc Plugin (javadoc): 1.6
+Oracle Java SE Development Kit Installer Plugin (jdk-tool): 1.4
+Design Language (jenkins-design-language): 1.24.3
+Jira plugin (jira): 3.1.3
+Job DSL (job-dsl): 1.77
+Job Configuration History Plugin (jobConfigHistory): 2.26
+Job/Queue/Slaves Monitoring Plugin (jqs-monitoring): 1.4
+jQuery plugin (jquery): 1.12.4-1
+JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin (jquery-detached): 1.2.1
+JQuery3 API Plugin (jquery3-api): 3.5.1-2
+JSch dependency plugin (jsch): 0.1.55.2
+JUnit Plugin (junit): 1.45
+LDAP Plugin (ldap): 1.26
+Lockable Resources plugin (lockable-resources): 2.10
+Log Parser Plugin (log-parser): 2.1
+Mailer Plugin (mailer): 1.32.1
+MapDB API Plugin (mapdb-api): 1.0.9.0
+Matrix Authorization Strategy Plugin (matrix-auth): 2.6.4
+Matrix Project Plugin (matrix-project): 1.18
+Maven Integration plugin (maven-plugin): 3.8
+Mercurial plugin (mercurial): 2.12
+Metrics Plugin (metrics): 4.0.2.6
+JavaScript GUI Lib: Moment.js bundle plugin (momentjs): 1.1.1
+Monitoring (monitoring): 1.86.0
+Multiple SCMs plugin (multiple-scms): 0.6
+Node and Label parameter plugin (nodelabelparameter): 1.7.2
+Notification plugin (notification): 1.13
+OkHttp Plugin (okhttp-api): 3.14.9
+Job and Node ownership plugin (ownership): 0.13.0
+PAM Authentication plugin (pam-auth): 1.6
+Parameterized Scheduler (parameterized-scheduler): 0.8
+Parameterized Trigger plugin (parameterized-trigger): 2.39
+Pipeline: Build Step (pipeline-build-step): 2.13
+Pipeline: GitHub Groovy Libraries (pipeline-github-lib): 1.0
+Pipeline Graph Analysis Plugin (pipeline-graph-analysis): 1.10
+Pipeline: Input Step (pipeline-input-step): 2.12
+Pipeline: Milestone Step (pipeline-milestone-step): 1.3.1
+Pipeline: Model API (pipeline-model-api): 1.7.2
+Pipeline: Declarative Agent API (pipeline-model-declarative-agent): 1.1.1
+Pipeline: Declarative (pipeline-model-definition): 1.7.2
+Pipeline: Declarative Extension Points API (pipeline-model-extensions): 1.7.2
+Pipeline: REST API Plugin (pipeline-rest-api): 2.19
+Pipeline: Stage Step (pipeline-stage-step): 2.5
+Pipeline: Stage Tags Metadata (pipeline-stage-tags-metadata): 1.7.2
+Pipeline: Stage View Plugin (pipeline-stage-view): 2.19
+Pipeline Utility Steps (pipeline-utility-steps): 2.6.1
+Plain Credentials Plugin (plain-credentials): 1.7
+Plugin Utilities API Plugin (plugin-util-api): 1.5.0
+Popper.js API Plugin (popper-api): 1.16.0-7
+PostBuildScript Plugin (postbuildscript): 2.11.0
+Pre SCM BuildStep Plugin (preSCMbuildstep): 0.3
+Infrastructure plugin for Publish Over X (publish-over): 0.22
+Publish Over CIFS (publish-over-cifs): 0.16
+Pub-Sub "light" Bus (pubsub-light): 1.13
+Pyenv Pipeline Plugin (pyenv-pipeline): 2.1.2
+Rebuilder (rebuild): 1.31
+Resource Disposer Plugin (resource-disposer): 0.14
+Run Condition Plugin (run-condition): 1.3
+Safe Restart Plugin (saferestart): 0.3
+SCM API Plugin (scm-api): 2.6.4
+Scoring Load Balancer (scoring-load-balancer): 1.0.1
+Script Security Plugin (script-security): 1.75
+ShiningPanda Plugin (shiningpanda): 0.24
+Snakeyaml API Plugin (snakeyaml-api): 1.27.0
+Splunk Plugin (splunk-devops): 1.9.5
+Server Sent Events (SSE) Gateway Plugin (sse-gateway): 1.24
+SSH Credentials Plugin (ssh-credentials): 1.18.1
+SSH Build Agents plugin (ssh-slaves): 1.31.2
+Structs Plugin (structs): 1.20
+Subversion Plug-in (subversion): 2.13.2
+Test Results Analyzer Plugin (test-results-analyzer): 0.3.5
+Timestamper (timestamper): 1.11.8
+Token Macro Plugin (token-macro): 2.12
+Trilead API Plugin (trilead-api): 1.0.12
+Active Choices Plug-in (uno-choice): 2.5.1
+Variant Plugin (variant): 1.3
+View Job Filters (view-job-filters): 2.3
+WMI Windows Agents Plugin (windows-slaves): 1.7
+Pipeline (workflow-aggregator): 2.6
+Pipeline: API (workflow-api): 2.40
+Pipeline: Basic Steps (workflow-basic-steps): 2.22
+Pipeline: Groovy (workflow-cps): 2.87
+Pipeline: Shared Groovy Libraries (workflow-cps-global-lib): 2.17
+Pipeline: Nodes and Processes (workflow-durable-task-step): 2.37
+Pipeline: Job (workflow-job): 2.40
+Pipeline: Multibranch (workflow-multibranch): 2.22
+Pipeline: SCM Step (workflow-scm-step): 2.11
+Pipeline: Step API (workflow-step-api): 2.23
+Pipeline: Supporting APIs (workflow-support): 3.7
+Workspace Cleanup Plugin (ws-cleanup): 0.38
