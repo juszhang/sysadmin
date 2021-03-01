@@ -1,0 +1,59 @@
+1. Recover root password
+   A method (prior to REHL7):
+   Grub > e
+   init=/bin/sh (Remove rhgb and quiet tags if necessary) > Ctrl+x
+   /usr/sbin/load_policy -i
+   mount -o remount,rw /
+   passwd
+   mount -o remount,ro /
+   
+   B method (RHEL7&8):
+   Grub > e
+   rd.break > Ctrl+x
+   chroot /sysroot
+   mount -o remount,rw /
+   passwd
+   touch /.autorelabel
+   exit
+   reboot/exit
+
+   NOTE: The ‘rd’ part of ‘rd.break’ refers to ramdisk— the initial ramdisk (initrd) environment.
+
+2. Network config
+   after modify /etc/sysconfig/network-scripts/ifcfg-<interface name>. run ifdown <connection name> && ifup <connection name> to make it take effect
+   If you may get like "no active connection provided", check your connections first:
+   to list your connections and devices, run
+   nmcli con
+   nmcli dev
+
+   Note: ifup/ifdown uses NetworkManager, which in turn uses the concept of "connection". You don't have a connection for a interface, for example, enp0s8, you get an error
+
+3. the -hosts map in autofs
+      1). /net -hosts -nobrowse
+          The most widely used hierarchical mount is the builtin -hosts map, which mounts all exported filesystems from a named host.
+
+4. lvm trouble shouting
+   1). Problem
+      # parted /dev/sdb print
+        Error: /dev/sdb: unrecognised disk label
+        Model: ATA VBOX HARDDISK (scsi)
+        Disk /dev/sdb: 1074MB
+        Sector size (logical/physical): 512B/512B
+        Partition Table: unknown
+        Disk Flags:
+
+        Solution:
+        # parted /dev/sdb mklabel gpt
+
+    2). Problem
+        # pvcreate /dev/sdb
+          Device /dev/sdb excluded by a filter.
+        
+        Solution:
+          # wipefs -a /dev/sdb
+            /dev/sdb: 8 bytes were erased at offset 0x00000200 (gpt): 45 46 49 20 50 41 52 54
+            /dev/sdb: 8 bytes were erased at offset 0x3ffffe00 (gpt): 45 46 49 20 50 41 52 54
+            /dev/sdb: 2 bytes were erased at offset 0x000001fe (PMBR): 55 aa
+            /dev/sdb: calling ioctl to re-read partition table: Success
+          # pvcreate /dev/sdb
+              Physical volume "/dev/sdb" successfully created.
